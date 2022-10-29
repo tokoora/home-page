@@ -6,3 +6,7 @@
     font-family: "Inter";
     src: url(./assets/fonts/static/Inter-Regular.ttf);
 }
+@font-face {
+    font-family: "Sen";
+    src: url(./assets/fonts/Sen/Sen-Regular.ttf);
+}

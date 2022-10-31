@@ -8,9 +8,9 @@ body{
 }
 .head{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    padding: 24px 135px 24px 135px;
+    padding: 24px 365px 24px 365px;
 }
 .logo-head{
     display: flex;
@@ -177,7 +177,7 @@ body{
 .footer{
     display: flex;
     justify-content: space-between;
-    padding: 0 135px 55px 135px;
+    padding: 0px 180px 55px 365px;
 }
 .column-logo{
     display: flex;
@@ -196,7 +196,7 @@ body{
 .row{
     display: flex;
     gap: 113px;
-    padding: 0 135px 55px 135px;
+    padding: 0px 180px 55px 230px;
 }
 .column ul{
     list-style: none;

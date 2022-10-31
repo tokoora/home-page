@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
 }
-.header{
+body{
     background: #FAF8ED;
 }
 .head{
@@ -65,9 +65,8 @@
     line-height: 66px;
     color: #2D3134;
     text-align: center;
-    margin-bottom: 16px;
 }
-.text p{
+.text span{
     font-family: "Inter";
     font-weight: 400;
     font-size: 16px;
@@ -107,6 +106,7 @@
     justify-content: center;
     align-items: end;
     margin-bottom: 84px;
+    padding: 0px 135px 0px 135px;
 }
 .images button, h3, p{
     position: absolute;
@@ -177,7 +177,7 @@
 .footer{
     display: flex;
     justify-content: space-between;
-    padding: 0 135px 55px;
+    padding: 0 135px 55px 135px;
 }
 .column-logo{
     display: flex;
@@ -196,6 +196,7 @@
 .row{
     display: flex;
     gap: 113px;
+    padding: 0 135px 55px 135px;
 }
 .column ul{
     list-style: none;
@@ -207,25 +208,27 @@
     font-size: 14px;
     line-height: 34px;
     color: #676a6c;
-  }
-  .column h4{
+}
+.column h4{
     font-family: "Inter";
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 600;
+    font-style: normal;
     line-height: 18px;
     color: #2D3134;
-  }
-  .column-logo h1{
+    margin-bottom: 25px;
+}
+.column-logo h1{
     font-family: "Sen";
     font-weight: 700;
     font-size: 20px;
     line-height: 20px;
     color: #2D3134;
-  }
-  li{
+}
+li{
     color: #676A6C;
     font-family: "Inter";
     font-weight: 400;
     font-size: 14px;
     line-height: 34px;
-  }
+}
